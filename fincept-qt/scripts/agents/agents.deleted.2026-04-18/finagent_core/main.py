@@ -9,6 +9,10 @@ Performance notes:
 - Uses optimized agent loader to avoid slow file scanning
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 import json
 import logging
